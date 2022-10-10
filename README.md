@@ -24,16 +24,21 @@ git clone https://github.com/KlinGenErasmusMC/rnaseq-voila.git
     - voila>=0.2.11
     - scikit-learn
 
-One can use the environment.yml file to install the whole environment using Anaconda / Miniconda as described below. Alternatively you can install the required Python libraries using pip within an existing Python installation / environment 
-
 ## Installation - using pip
-
 
 The `requirements.txt` file should list all Python libraries that your notebooks
 depend on, and they will be installed using:
 
 ```
 pip install -r requirements.txt
+```
+
+## Installation - using Anaconda / Miniconda
+
+If you prefer, you can use the [environment.yml](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/environment.yml) file to install the whole environment using [Anaconda / Miniconda]() :
+
+```
+conda env create --file environment.yml
 ```
 
 ## Running the Notebook / Voila App
