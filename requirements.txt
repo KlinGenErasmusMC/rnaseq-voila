@@ -1,5 +1,5 @@
 plotly==5.1.0
-matplotlib-base
+matplotlib
 pandas
 dominate==2.3.1
 ipywidgets
