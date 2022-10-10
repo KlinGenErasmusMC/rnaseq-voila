@@ -37,6 +37,14 @@ depend on, and they will be installed using:
 pip install -r requirements.txt
 ```
 
+## Running the notebook 
+
+To start the Notebook server, first find out the IP of the machine that will host the server (here **100.66.2.72**) and choose an available port. To more easily navigate to the notebook / app, you can start the Notebook server from the folder where you downloaded the data to (here **/home/notebook/rna-voila/** ).  
+
+```
+jupyter-notebook --NotebookApp.ip=100.66.2.72 --no-browser --port=8888 --notebook-dir=/home/notebook/rna-voila/ 
+```
+
 
 ## RNA-Seq Data (input data for Analysis App)
 
