@@ -1,10 +1,9 @@
 # rnaseq-voila
 
-A Jupyter Notebook / Voila App for analysis and filtering of RNA-Seq data for clinical genetics diagnostics
-
-First get this repo :
+Here, we describe how to install our Jupyter Notebook / Voila App for analysis and filtering of RNA-Seq data for clinical genetics diagnostics locally on your laptop / PC or (institute / department) server. First you need to choose a location where to download the data. In this example we will use **/home/notebook/rnaseq-voila** as the destination :
 
 ```
+cd /home/notebook/
 git clone https://github.com/KlinGenErasmusMC/rnaseq-voila.git
 ```
 
