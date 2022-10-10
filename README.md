@@ -45,7 +45,7 @@ To start the Notebook server, first find out the IP of the machine that will hos
 jupyter-notebook --NotebookApp.ip=100.66.2.72 --no-browser --port=8888 --notebook-dir=/home/notebook/rna-voila/ 
 ```
 
-You can then interact with the Python code in the notebook at this URL :
+You can then interact with the Python code in the notebook at [this](http://100.66.2.72:8888/) URL.
 
 Working in the Notebook gives you the freedom to do (additional) data analysis on the data yourself. A more user-friendly Voila web-app version can be started by clicking on the Voila logo :
 
@@ -54,7 +54,7 @@ Or alternatively, in case you do not wish to change / interact with the code, yo
 ```
 voila --port=8866 --ExecutePreprocessor.timeout=360 --no-browser --Voila.ip=100.66.2.72 /home/notebook/rna-voila/rnaseq-filtering-app.ipynb
 ```
-You can then connect to the App at the this URL [Voila App](http://100.66.2.72:8866/)]
+You can then connect to the App at [this](http://100.66.2.72:8866/) URL.
 
 ## RNA-Seq Data (input data for Analysis App)
 
