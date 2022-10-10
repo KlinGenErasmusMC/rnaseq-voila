@@ -7,11 +7,6 @@ cd /home/notebook/
 git clone https://github.com/KlinGenErasmusMC/rnaseq-voila.git
 ```
 
-## Prerequisites - RNA-Seq Data (input data for Analysis App)
-
-- See RNA-Seq processing Pipeline Instructions
-
-
 ## Prerequisites - RNA-Seq Analysis App
 
 - A working Jupyter Notebook / Voila installation with the following Python modules
@@ -35,7 +30,7 @@ pip install -r requirements.txt
 
 ## Installation - using Anaconda / Miniconda
 
-If you prefer, you can use the [environment.yml](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/environment.yml) file to install the whole environment using [Anaconda / Miniconda]() :
+If you prefer, you can use the [environment.yml](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/environment.yml) file to install the whole environment using [Anaconda / Miniconda](https://docs.conda.io/en/latest/miniconda.html) :
 
 ```
 conda env create --file environment.yml
