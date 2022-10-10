@@ -55,9 +55,9 @@ voila --port=8866 --ExecutePreprocessor.timeout=360 --no-browser --Voila.ip=100.
 ```
 You can then connect to the App at [this](http://100.66.2.72:8866/) URL.
 
-## RNA-Seq Data (input data for Analysis App)
+## RNA-Seq Pipeline / Data (input data for Analysis App)
 
-For further analysis and visualization of the example data, please open en read the Tutorial.md
+This Notebook / Voila App comes with some demo data to highlight the features of the App. If you want to use this App for the analysis of your own (patient) RNA-Seq data, you need to first process this data. Instructions on how to process data in such a way that they can be used in the App can be found [here](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/rnaseq-pipeline.MD)
  
 ## Citation
 Jordy Dekker, Rachel Schot, Michiel Bongaerts, Walter G. de Valk, Monique van Veghel-Plandsoen, ..., Grazia M.S. Mancini, Tjakko J. van Ham. _RNA-sequencing improves diagnosis for neurodevelopmental disorders by identifying pathogenic non-coding variants and reinterpretation of coding variants._ **medRxiv**; doi: https://doi.org/10.1101/2022.06.05.22275956
