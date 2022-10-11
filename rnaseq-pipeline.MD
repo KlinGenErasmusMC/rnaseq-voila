@@ -18,9 +18,9 @@ gatk MarkDuplicates --java-options \"-Djava.io.tmpdir={tmp_location} -Xmx3g\" --
 
 ### Counts
 
-The mapped reads are counted by bedtools multicov against separate bedfiles for 
-genes (GCF_000001405.25_GRCh37.p13_genomic.chr.genes.bed),
-exons (GCF_000001405.25_GRCh37.p13_genomic.chr.transcripts.bed) and
-introns (GCF_000001405.25_GRCh37.p13_genomic.chr.introns.bed) (see [ref](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/ref).
+The mapped reads are counted by bedtools multicov against separate bedfiles (see [ref](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/ref)): 
+- genes (GCF_000001405.25_GRCh37.p13_genomic.chr.genes.bed)
+- exons (GCF_000001405.25_GRCh37.p13_genomic.chr.transcripts.bed)
+- introns (GCF_000001405.25_GRCh37.p13_genomic.chr.introns.bed)
 
 ```bedtools multicov -q 1 -split -bed {BED} -bams 103805-001-040_dupmarked.bam```
