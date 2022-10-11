@@ -29,7 +29,7 @@ These raw counts and TPM normalised counts will be used as input for OUTRIDER an
 
 ### OUTRIDER
 
-The outrider script will separatly be performed for every species (fibroblast or blood samples) and for every fragment (genes, exons, introns).
+The outrider script will separatly be performed for every species (fibroblast or blood samples), treatment (with ('CHX') or without ('0') Cycloheximidine) and for every fragment (genes, exons, introns).
 This workflow for analyzing RNA sequencing data is mainly based on [OUTRIDER.pdf](http://bioconductor.org/packages/release/bioc/vignettes/OUTRIDER/inst/doc/OUTRIDER.pdf). The workflow needs a server with a minimum memory of 128GB.
 
 ([OUTRIDER.R](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/script))
@@ -38,4 +38,4 @@ This workflow for analyzing RNA sequencing data is mainly based on [OUTRIDER.pdf
 Rscript outrider.R 'experiment' 'species' 'treatment' 'fragment' 'opt
 ```
 
-The resulttables (3 for every species) finally will be used as inputtables for the voila application.
+The resulttables (3 for every species/treatment) finally will be used as inputtables for the voila application.
