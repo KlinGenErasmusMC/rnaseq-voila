@@ -27,7 +27,7 @@ The mapped reads are counted by bedtools multicov against separate bedfiles {BED
 bedtools multicov -q 1 -split -bed {BED} -bams 103805-001-040_dupmarked.bam
 ```
 
-These raw counts and TPM normalised counts (see [normalisation.py](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/scripts/normalisation.py) ) will be used as input for OUTRIDER analysis.
+These raw counts and TPM normalised counts (see [normalisation](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/scripts/normalisation_methods.py) ) will be used as input for OUTRIDER analysis.
 
 ### OUTRIDER
 
