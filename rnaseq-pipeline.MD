@@ -35,7 +35,7 @@ This workflow for analyzing RNA sequencing data is mainly based on [OUTRIDER.pdf
 ([OUTRIDER.R](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/scripts/outrider.R))
 
 ```
-Rscript outrider.R 'experiment' 'species' 'treatment' 'fragment' 'opt
+Rscript outrider.R 'experiment' 'species' 'treatment' 'fragment'
 ```
 
 The resulttables (3 for every species/treatment) finally will be used as inputtables for the voila application.
