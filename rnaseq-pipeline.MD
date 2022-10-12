@@ -18,7 +18,7 @@ gatk MarkDuplicates --java-options \"-Djava.io.tmpdir={tmp_location} -Xmx3g\" --
 
 ### Counts
 
-The mapped reads are counted by bedtools multicov against separate bedfiles {BED} (see [ref](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/ref)): 
+The mapped reads are counted by bedtools multicov against separate bedfiles {BED} (see [ref](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/reference)): 
 - genes (GCF_000001405.25_GRCh37.p13_genomic.chr.genes.bed)
 - exons (GCF_000001405.25_GRCh37.p13_genomic.chr.transcripts.bed)
 - introns (GCF_000001405.25_GRCh37.p13_genomic.chr.introns.bed)
