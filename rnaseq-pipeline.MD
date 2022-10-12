@@ -23,9 +23,11 @@ The mapped reads are counted by bedtools multicov against separate bedfiles {BED
 - exons (GCF_000001405.25_GRCh37.p13_genomic.chr.transcripts.bed)
 - introns (GCF_000001405.25_GRCh37.p13_genomic.chr.introns.bed)
 
-```bedtools multicov -q 1 -split -bed {BED} -bams 103805-001-040_dupmarked.bam```
+```
+bedtools multicov -q 1 -split -bed {BED} -bams 103805-001-040_dupmarked.bam
+```
 
-These raw counts and TPM normalised counts will be used as input for OUTRIDER analysis.
+These raw counts and TPM normalised counts (see [normalisation.py](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/scripts/normalisation.py) ) will be used as input for OUTRIDER analysis.
 
 ### OUTRIDER
 
