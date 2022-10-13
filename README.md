@@ -33,8 +33,16 @@ pip install -r requirements.txt
 If you prefer, you can use the [environment.yml](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/environment.yml) file to install the whole environment using [Anaconda / Miniconda](https://docs.conda.io/en/latest/miniconda.html) :
 
 ```
-conda create --file environment.yml
+conda env create --file environment.yml
 ```
+
+When the conda environment has been successfully created, it can be activated with the following command
+
+```
+conda activate rnaseq-voila
+```
+
+and used to run the Notebook server and/or Voila app as detailed below. 
 
 ## Running the Notebook / Voila App
 
