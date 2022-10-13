@@ -33,7 +33,7 @@ pip install -r requirements.txt
 If you prefer, you can use the [environment.yml](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/environment.yml) file to install the whole environment using [Anaconda / Miniconda](https://docs.conda.io/en/latest/miniconda.html) :
 
 ```
-conda env create --file environment.yml
+conda create --file environment.yml
 ```
 
 ## Running the Notebook / Voila App
