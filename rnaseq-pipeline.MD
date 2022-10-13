@@ -18,7 +18,7 @@ gatk MarkDuplicates --java-options \"-Djava.io.tmpdir={tmp_location} -Xmx3g\" --
 
 ### Counts
 
-In order to be able to increase the sensitivity of identifying (non-coding) pathogenic variants in RNA-Seq data, we analyse entire gene transcripts and individual exons and introns separately. Therefore we need 3 separate annotation (BED) files with definitions of these. Our pipeline is currently based on the GRCh37.p13 human reference (hg19) and GCF_000001405.25 transcripts. You can find these {BED} files [here](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/reference)): 
+In order to be able to increase the sensitivity of identifying (non-coding) pathogenic variants in RNA-Seq data, we analyse entire gene transcripts and individual exons and introns separately. Therefore we need 3 separate annotation (BED) files with definitions of these. Our pipeline is currently based on the GRCh37.p13 human reference (hg19) and GCF_000001405.25 transcripts. You can find these {BED} files [here](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/reference): 
 
 - genes (GCF_000001405.25_GRCh37.p13_genomic.chr.genes.bed)
 - exons (GCF_000001405.25_GRCh37.p13_genomic.chr.transcripts.bed)
