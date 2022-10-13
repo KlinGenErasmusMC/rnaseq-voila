@@ -1,10 +1,10 @@
 name: rnaseq-voila
 channels:
-        - plotly
-        - bioconda
         - conda-forge
+        - bioconda
+        - plotly
 dependencies:
-        - plotly=5.1.0
+        - plotly>=5.1.0
         - matplotlib-base
         - pandas
         - dominate=2.3.1
