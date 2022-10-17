@@ -34,8 +34,7 @@ These raw counts and TPM normalised counts (see [normalisation](https://github.c
 
 ### OUTRIDER
 
-We use the OUTRIDER (Outlier in RNA-Seq Finder) method for computation of statistics and assess significance of aberrant read counts in individual samples. The outrider script will separatly be performed for every species (fibroblast or blood samples), treatment (with ('CHX') or without ('0') Cycloheximidine) and for every fragment (genes, exons, introns).
-This workflow for analyzing RNA sequencing data is mainly based on [OUTRIDER.pdf](http://bioconductor.org/packages/release/bioc/vignettes/OUTRIDER/inst/doc/OUTRIDER.pdf). The workflow needs a server with a minimum memory of 128GB.
+We use the OUTRIDER (Outlier in RNA-Seq Finder) method for computation of statistics and assess significance of aberrant read counts in individual samples. The outrider script should be performed separately for RNA-Seq (patient) samples from different cell types (e.g. fibroblasts or blood samples) or treatments (with ('CHX') or without ('0') Cycloheximide). We also run it separately for the analysis of genes, exons and introns, with the countfiles from the previous step as input. This workflow for analyzing RNA sequencing data is mainly based on [OUTRIDER.pdf](http://bioconductor.org/packages/release/bioc/vignettes/OUTRIDER/inst/doc/OUTRIDER.pdf). The workflow runs in R and requires the OUTRIDER package and a number of other R packages to be installed (see R script below). It's recommended to run it on a server / high performance computing (HPC) infrastructure with at least 16 cores and between 64-128 GB memory available. You can run the workflow by adapting the following R script to run in your computing environment with your own data :
 
 ([OUTRIDER.R](https://github.com/KlinGenErasmusMC/rnaseq-voila/tree/main/scripts/outrider.R))
 
@@ -43,7 +42,7 @@ This workflow for analyzing RNA sequencing data is mainly based on [OUTRIDER.pdf
 Rscript outrider.R 'experiment' 'species' 'treatment' 'fragment'
 ```
 
-The resulttables (3 for every species/treatment) finally will be used as inputtables for the voila application.
+The resulttables (3 for every cell/sample type/treatment) finally will be used as inputtables for the voila application.
 
 ## Citation
 Brechtmann F, Mertes C, Matusevičiūtė A, Yépez VA, Avsec Ž, Herzog M, Bader DM, Prokisch H, Gagneur J. _OUTRIDER: A Statistical Method for Detecting Aberrantly Expressed Genes in RNA Sequencing Data._ **Am J Hum Genet. 2018 Dec 6;103(6):907-917**; doi: https://doi.org/10.1016/j.ajhg.2018.10.025
