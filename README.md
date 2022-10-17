@@ -1,15 +1,19 @@
 # rnaseq-voila
 
-Here, we describe how to install our Jupyter Notebook / Voila App for analysis and filtering of RNA-Seq data for clinical genetics diagnostics locally on your laptop / PC or (institute / department) server. First you need to choose a location where to download the data. In this example we will use **/home/notebook/rnaseq-voila** as the destination :
+Here, we describe how to install our Jupyter Notebook / Voila App for analysis and filtering of RNA-Seq data for clinical genetics diagnostics locally on your laptop / PC or (institute / department) server. First you need to choose a location where to download the data. In this example we will use **/home/notebook/** as the destination to download and extract the zip file:
 
 ```
 cd /home/notebook/
-git clone https://github.com/KlinGenErasmusMC/rnaseq-voila.git
+wget https://github.com/KlinGenErasmusMC/rnaseq-voila/archive/refs/heads/main.zip
+unzip main.zip
 ```
+
+All data from this repository should now be available at **/home/notebook/rnaseq-voila-main/**. 
 
 ## Prerequisites - RNA-Seq Analysis App
 
-- A working Jupyter Notebook / Voila installation with the following Python modules
+To run the Jupyter Notebook / Voila App, you need a working python and Jupyter / Voila installation with the following Python modules :
+
     - plotly=5.1.0
     - matplotlib-base
     - pandas
@@ -21,8 +25,7 @@ git clone https://github.com/KlinGenErasmusMC/rnaseq-voila.git
 
 ## Installation - using pip
 
-The `requirements.txt` file should list all Python libraries that your notebooks
-depend on, and they will be installed using:
+The [requirements.txt](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/requirements.txt) file should lists all required Python libraries that the notebook depend on, and they can be installed using:
 
 ```
 pip install -r requirements.txt
