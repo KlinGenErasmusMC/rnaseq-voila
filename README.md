@@ -1,6 +1,10 @@
+## RNA-Seq Pipeline / Data (input data for Analysis App)
+
+This Notebook / Voila webbrowser App comes with some demo data to highlight the features of the App and is available [here](https://mybinder.org/v2/gh/KlinGenErasmusMC/rnaseq-clingendiag/HEAD?urlpath=voila%2Frender%2Frnaseq-filtering-app.ipynb) . If you want to use this App for the analysis of your own (patient) RNA-Seq data, you need to first process this data. Instructions on how to process data in such a way that they can be used in the App can be found [here](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/rnaseq-pipeline.MD)
+
 # rnaseq-voila
 
-Here, we describe how to install our Jupyter Notebook / Voila App for analysis and filtering of RNA-Seq data for clinical genetics diagnostics locally on your laptop / PC or (institute / department) server. First you need to choose a location where to download the data. In this example we will use **/home/notebook/** as the destination to download and extract the zip file:
+Below, we describe how to install our Jupyter Notebook / Voila App for analysis and filtering of RNA-Seq data for clinical genetics diagnostics locally on your laptop / PC or (institute / department) server. First you need to choose a location where to download the data. In this example we will use **/home/notebook/** as the destination to download and extract the zip file:
 
 ```
 cd /home/notebook/
@@ -65,10 +69,6 @@ Or alternatively, in case you do not wish to change / interact with the code, yo
 voila --port=8866 --ExecutePreprocessor.timeout=360 --no-browser --Voila.ip=101.66.22.62 /home/notebook/rna-voila-main/rnaseq-filtering-app.ipynb
 ```
 You can then connect to the App at [this](http://101.66.22.62:8866/) URL. A user manual explaining the functionality of the App can be found [here](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/User_manual_RNA-seq-Voila-App.pdf). 
-
-## RNA-Seq Pipeline / Data (input data for Analysis App)
-
-This Notebook / Voila App comes with some demo data to highlight the features of the App. If you want to use this App for the analysis of your own (patient) RNA-Seq data, you need to first process this data. Instructions on how to process data in such a way that they can be used in the App can be found [here](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/rnaseq-pipeline.MD)
  
 ## Citation
 Jordy Dekker, Rachel Schot, Michiel Bongaerts, Walter G. de Valk, Monique van Veghel-Plandsoen, ..., Grazia M.S. Mancini, Tjakko J. van Ham. _RNA-sequencing improves diagnosis for neurodevelopmental disorders by identifying pathogenic non-coding variants and reinterpretation of coding variants._ **medRxiv**; doi: https://doi.org/10.1101/2022.06.05.22275956
