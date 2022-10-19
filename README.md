@@ -1,6 +1,6 @@
 ## RNA-Seq Pipeline / Data (input data for Analysis App)
 
-This Notebook / Voila webbrowser App comes with some demo data to highlight the features of the App and is available [here](https://mybinder.org/v2/gh/KlinGenErasmusMC/rnaseq-clingendiag/HEAD?urlpath=voila%2Frender%2Frnaseq-filtering-app.ipynb) . If you want to use this App for the analysis of your own (patient) RNA-Seq data, you need to first process this data. Instructions on how to process data in such a way that they can be used in the App can be found [here](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/rnaseq-pipeline.MD)
+This Notebook / Voila webbrowser App comes with some demo data to highlight the features of the App and is available [here](https://mybinder.org/v2/gh/KlinGenErasmusMC/rnaseq-clingendiag/HEAD?urlpath=voila%2Frender%2Frnaseq-filtering-app.ipynb) . If you want to use this App for the analysis of your own (patient) RNA-Seq data, you need to first process this data. Instructions on how to process data in such a way that they can be used in the App can be found [here](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/rnaseq-pipeline.MD). 
 
 # rnaseq-voila
 
