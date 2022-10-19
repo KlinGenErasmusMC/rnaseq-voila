@@ -64,7 +64,7 @@ Or alternatively, in case you do not wish to change / interact with the code, yo
 ```
 voila --port=8866 --ExecutePreprocessor.timeout=360 --no-browser --Voila.ip=101.66.22.62 /home/notebook/rna-voila-main/rnaseq-filtering-app.ipynb
 ```
-You can then connect to the App at [this](http://101.66.22.62:8866/) URL.
+You can then connect to the App at [this](http://101.66.22.62:8866/) URL. A user manual explaining the functionality of the App can be found [here](https://github.com/KlinGenErasmusMC/rnaseq-voila/blob/main/User_manual_RNA-seq-Voila-App.pdf). 
 
 ## RNA-Seq Pipeline / Data (input data for Analysis App)
 
