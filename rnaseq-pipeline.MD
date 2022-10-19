@@ -42,7 +42,7 @@ We use the OUTRIDER (Outlier in RNA-Seq Finder) method for computation of statis
 Rscript outrider.R 'experiment' 'species' 'treatment' 'fragment'
 ```
 
-The resulttables (3 for every cell/sample type/treatment) finally will be used as inputtables for the voila application.
+The result tables (3 for every cell/sample type/treatment) finally will be used as input tables for the voila application.
 
 ## Citation
 Brechtmann F, Mertes C, Matusevičiūtė A, Yépez VA, Avsec Ž, Herzog M, Bader DM, Prokisch H, Gagneur J. _OUTRIDER: A Statistical Method for Detecting Aberrantly Expressed Genes in RNA Sequencing Data._ **Am J Hum Genet. 2018 Dec 6;103(6):907-917**; doi: https://doi.org/10.1016/j.ajhg.2018.10.025
