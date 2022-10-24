@@ -18,14 +18,19 @@ All data from this repository should now be available at **/home/notebook/rnaseq
 
 To run the Jupyter Notebook / Voila App, you need a working python and Jupyter / Voila installation with the following Python modules :
 
-    -   plotly==5.1.0
-    -   matplotlib
-    -   pandas
-    -   dominate==2.3.1
-    -   ipywidgets
-    -   jupyterlab>=3.1
-    -   voila>=0.2.11
-    -   scikit-learn
+        - dominate=2.3.1
+        - jupyter_core=4.11.1
+        - jupyterlab=3.4.8
+        - jupyter_server=1.21.0
+        - python=3.7.12
+        - plotly=5.1.0
+        - nbconvert=6.5.3
+        - matplotlib-base
+        - pandas
+        - ipywidgets
+        - scikit-learn
+        - wheel=0.37.1
+        - voila=0.3.6
 
 ## Installation - using pip
 
