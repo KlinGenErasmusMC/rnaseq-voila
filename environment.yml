@@ -5,9 +5,9 @@ channels:
         - plotly
 dependencies:
         - dominate=2.3.1
-        - jupyter-core=4.11.1
+        - jupyter_core=4.11.1
         - jupyterlab=3.4.8
-        - jupyter-server=1.21.0
+        - jupyter_server=1.21.0
         - python=3.7.12
         - plotly=5.1.0
         - nbconvert=6.5.3
